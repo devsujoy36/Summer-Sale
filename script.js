@@ -146,7 +146,10 @@ document.getElementById('go-home').addEventListener('click', function() {
 
 
 
-
+document.getElementById('sale-20').addEventListener('click',function(){
+  const inputfieldElement = document.getElementById('coupon-inputfield');
+  inputfieldElement.value = 'SALE20';
+})
 
 
 
